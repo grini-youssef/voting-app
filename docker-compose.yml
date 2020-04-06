@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  vote:
+    build: ./vote
+    command: python app.py
+    volumes:
+     - ./vote:/app
+    ports:
+      - "8080:80"
+    networks:
+      - monreseau
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    ports: ["6379"]
+    networks:
+      - monreseau
+
+
+volumes:
+  db-data:
+
+networks:
+  monreseau:
