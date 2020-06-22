@@ -10,6 +10,15 @@ services:
       - "9090:80"
     networks:
       - monreseau
+  result:
+    build: ./result
+    command: nodemon server.js
+    volumes:
+      - ./result:/app
+    ports:
+      - "9091:80"
+    networks:
+      - monreseau
 
   redis:
     image: redis:alpine
