@@ -14,6 +14,6 @@ COPY . .
 
 ENV PORT 80
 
-EXPOSE 9091
+EXPOSE 80
 
 CMD ["node", "server.js"]
