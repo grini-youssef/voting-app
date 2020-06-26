@@ -2,16 +2,82 @@
 
 *{
   box-sizing:border-box;
+  justify-content: center;
 }
-html,body{
+#body{
   margin: 0;
   padding: 0;
   background-color: #F7F8F9;
   height: 100vh;
   font-family: 'Open Sans';
+  background: rgb(169, 197, 197);
 }
 
-button{
+#title{
+  margin: 40px auto;
+  text-align: center;
+  font-size: 36px;
+  color: #a50000;
+}
+
+.election1{
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+img{
+  width: 130px;
+  height: 164px;
+  border-radius: 10px;
+}
+.nom{
+  margin: 25px 45px 0px;
+}
+.nom h4{
+  font-weight: bold;
+}
+.nom p{
+  font-size: 18px;
+  font-family: 'Open Sans';
+}
+#a,#b{
+  height: 50px;
+  width: 130px;
+  margin-top: 58px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.election2{
+  /* padding-left: 37px; */
+}
+
+#tip{
+  position: absolute;
+  margin-top: 50px;
+  padding-left: 300px;
+  color: #647c8a;
+  font-size: 16px;
+}
+
+#hostname{
+  position: absolute;
+  bottom: 70px;
+  padding-left: 300px;
+  color: #8f9ea8;
+  font-size: 22px;
+}
+.aftervote{
+  text-align: center;
+  font-size: 18px;
+  color: green;
+  height: 30px;
+}
+#espace{
+  width: 45px;
+}
+
+/* button{
   border-radius: 0;
   width: 100%;
   height: 50%;
@@ -33,21 +99,6 @@ button.a{
 
 button.b{
   background-color: #00cbca;
-}
-
-#tip{
-  text-align: left;
-  color: #c0c9ce;
-  font-size: 14px;
-}
-
-#hostname{
-  position: absolute;
-  bottom: 100px;
-  right: 0;
-  left: 0;
-  color: #8f9ea8;
-  font-size: 24px;
 }
 
 #content-container{
@@ -126,4 +177,4 @@ button.b{
   margin-bottom:-4px;
   width:50%;
   height:100%;
-}
+} */
