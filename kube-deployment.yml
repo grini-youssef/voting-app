@@ -138,7 +138,7 @@ spec:
     spec:
       containers:
       - name: result
-        image: grini/result
+        image: grini/result:latest
         ports:
         - containerPort: 80
           name: result
@@ -178,7 +178,7 @@ spec:
     spec:
       containers:
       - name: vote
-        image: grini/vote
+        image: grini/vote:latest
         ports:
         - containerPort: 80
           name: vote
@@ -213,5 +213,5 @@ spec:
         app: worker
     spec: 
       containers: 
-      - image: grini/worker
+      - image: grini/worker:latest
         name: worker
