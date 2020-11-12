@@ -32,3 +32,7 @@ docker-compose up
 The app will be running at http://localhost:5050 
 
 and the results will be at http://localhost:5051
+
+You can see a video explicative for this application by visit the following link:
+
+https://youtu.be/cAIVa2CSpxs
